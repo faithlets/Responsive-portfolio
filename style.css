@@ -28,6 +28,7 @@ h3 {
   opacity: 0.7;
 }
 
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -85,4 +86,43 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) h1 {
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+h1{font-size: 48px;
+  line-height: 1.5;
+}
+
+h2{font-size: 36px;
+  line-height: 1.5;
+}
+
+p{
+  text-align: center;
+}
+.project-link {
+  display: block;
+  text-align: center;
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
