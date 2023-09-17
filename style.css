@@ -1,128 +1,45 @@
-:root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+body {
+  background-color: rgb(218, 18, 18);
+ margin: Top: 0px;
+Right: 0px;
 }
 
-body {
-  background-color: rgb(152, 228, 230);
-  margin: 60px auto;
-  max-width: 800px;
-  margin-top: 100px;
+
+
+
+h2{
+  text-align: center;
+  color: white;
+  font-size: 24px;
 }
+
+input[type=text]{
+  padding: 10px;
+}
+
+
+
+.contact-form {
+width: 150px;
+background-color: rgb(8, 8, 8);
+text-align: right;
+padding: 10px;
+font-size: comic sans;
+Color: White 
+Size: 24 pixels 
+}
+
+
+
 h1,
 h2,
 h3 {
   margin: 0;
-}
-h1 {
-  font-size: 90px;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-}
-
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-.navigation-links {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.navigation-links a {
-  margin: 20px;
-}
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  border: 1px solid var(--primary-color);
+  color: rgb(1, 5, 10)
+  align-content: center;
 }
 .homepage-link {
-  color: var(--primary-color);
+  color: blue;
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-}
-
-.about-paragraphs {
-  margin: 10px;
-}
-
-.email-link {
-  text-align: center;
-  display: block;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 900px) h1 {
-  font-size: 48px;
-  line-height: 1.5;
-}
-
-h1{font-size: 48px;
-  line-height: 1.5;
-}
-
-h2{font-size: 36px;
-  line-height: 1.5;
-}
-
-p{
-  text-align: center;
-}
-.project-link {
-  display: block;
-  text-align: center;
-  margin: 0 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
